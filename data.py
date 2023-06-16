@@ -2,8 +2,6 @@ import pandas as pd
 
 # Import, filtro e padronização dado de dados
 df = pd.read_csv("datasets/carros.csv")
-del df["fipe_code"], df["authentication"]
-df = df[df["year_of_reference"] == 2022].reset_index(drop=True)
 df["brand"] = df.brand.apply(lambda x: x.title())
 df["gear"] = df.gear.apply(lambda x: x.title())
 
