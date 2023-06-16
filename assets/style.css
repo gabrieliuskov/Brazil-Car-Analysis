@@ -1,0 +1,19 @@
+.labels{
+    padding-bottom: 2%
+}
+
+.dropdownsEsliders {
+    margin-bottom: 8%;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.card {
+    height: 320px;
+    margin: 3px;
+}
+
+.card_tab {
+    height: 145vh;
+}
+
